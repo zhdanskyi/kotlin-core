@@ -1,8 +1,8 @@
 import kotlin.random.Random
-
+import kotlin.arrayOfNulls
 fun main() {
     // Array para almacenar estudiantes
-    var students: Array = emptyArray()
+     lateinit var students: Array<String?>
     // guardar el tamanio de clase
     var classSize = 0
     // revisar si la clase esta llena
@@ -71,7 +71,7 @@ fun main() {
                 } else {
                     // alumno aleatroio
                     val luckyStudent = students.random()
-                    println("alumno aleaorio es : $luckyStudent 🎉")
+                    println("alumno aleaorio es : $luckyStudent !")
                 }
             }
 

@@ -1,5 +1,2 @@
 package tasks
-
-fun num() {
-
-}
+fun num() {}

@@ -1,5 +1,2 @@
 package tasks
-fun  main() {
-
-
-}
+fun clase() {}

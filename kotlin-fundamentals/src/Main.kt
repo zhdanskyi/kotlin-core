@@ -1,5 +1,3 @@
-import tasks.num
-
 fun main(args:Array<String>){
 //metodos
         var name : String = "name "
@@ -17,6 +15,14 @@ fun main(args:Array<String>){
         val userMail : String = "admin@admin.com"//final
         var telefono : Int//en algun momento se iniciara
         lateinit var pais: String
+
+
+
+
+
+
+
+        //3
 
 
 
@@ -52,8 +58,6 @@ fun saludar(nombre:String?=null,apellido: String?=null,veces: Int = 2){
 
     (0 until veces).forEach { println("Hola ${nombre}, apellido : ${apellido}") }
     (0 until veces).forEachIndexed { _, index -> println("Saludo n ${index}:hola buenas saludo foreachindex") }
-
-    num()
 
 
 
